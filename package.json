@@ -9,6 +9,9 @@
     "file server"
   ],
   "main": "index.js",
+  "scripts": {
+    "start": "nodemon ci/server.js"
+  },
   "repository": "https://github.com/kamicane/simple-ftpd.git",
   "author": "Valerio Proietti <kamicane@gmail.com>",
   "license": "MIT",
@@ -16,6 +19,8 @@
     "ftp-server": "./ftp-server"
   },
   "devDependencies": {
+    "co": "^4.6.0",
+    "nodemon": "^1.11.0",
     "standard": "^8.6.0"
   },
   "dependencies": {
