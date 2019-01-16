@@ -60,7 +60,7 @@ function ftpd (opts, sessionCb) {
       })
     })
 
-    ftpServer.listen(opts.port, opts.host)
+    ftpServer.listen(opts.port)
   }
 
   return ftpServer
